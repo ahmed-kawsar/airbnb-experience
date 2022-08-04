@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c5c1c1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.header {
+  min-height: 70px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  padding-left: 40px;
+}
+
+.hero {
+  padding: 10%;
+}
+
+.hero .grid {
+  width: 100%;
+}
+
+.hero .title {
+  font-size: 3rem;
+  margin-top: 2rem;
+  line-height: 3rem;
+}
+
+.hero .desc {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  line-height: 1.5rem;
+}
